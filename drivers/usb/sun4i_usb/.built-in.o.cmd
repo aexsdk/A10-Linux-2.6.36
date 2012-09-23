@@ -1,1 +1,0 @@
-cmd_drivers/usb/sun4i_usb/built-in.o :=  arm-none-linux-gnueabi-ld -EL    -r -o drivers/usb/sun4i_usb/built-in.o drivers/usb/sun4i_usb/sw_usbc.o drivers/usb/sun4i_usb/sw_usb_hcd0.o drivers/usb/sun4i_usb/sw_usb_udc.o 

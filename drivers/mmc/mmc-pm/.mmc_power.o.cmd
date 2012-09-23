@@ -1,1 +1,0 @@
-cmd_drivers/mmc/mmc-pm/mmc_power.o := arm-none-linux-gnueabi-ld -EL    -r -o drivers/mmc/mmc-pm/mmc_power.o drivers/mmc/mmc-pm/mmc_pm.o drivers/mmc/mmc-pm/mmc_pm_swl_n20.o drivers/mmc/mmc-pm/mmc_pm_usi_bm01a.o drivers/mmc/mmc-pm/mmc_pm_apm6xxx.o drivers/mmc/mmc-pm/mmc_pm_swb_b23.o 

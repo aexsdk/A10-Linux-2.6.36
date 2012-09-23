@@ -1,1 +1,0 @@
-cmd_drivers/gsensor/bma250.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/gsensor/bma250.ko drivers/gsensor/bma250.o drivers/gsensor/bma250.mod.o

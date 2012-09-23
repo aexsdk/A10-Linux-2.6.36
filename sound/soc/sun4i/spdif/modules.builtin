@@ -1,4 +1,0 @@
-kernel/sound/soc/sun4i/spdif/sun4i_spdif.ko
-kernel/sound/soc/sun4i/spdif/sun4i_spdma.ko
-kernel/sound/soc/sun4i/spdif/sndspdif.ko
-kernel/sound/soc/sun4i/spdif/sun4i_sndspdif.ko

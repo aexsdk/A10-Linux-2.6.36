@@ -1,1 +1,0 @@
-cmd_drivers/hwmon/mma7660.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/hwmon/mma7660.ko drivers/hwmon/mma7660.o drivers/hwmon/mma7660.mod.o

@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/iwmc3200wifi/iwmc3200wifi.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/net/wireless/iwmc3200wifi/iwmc3200wifi.ko drivers/net/wireless/iwmc3200wifi/iwmc3200wifi.o drivers/net/wireless/iwmc3200wifi/iwmc3200wifi.mod.o

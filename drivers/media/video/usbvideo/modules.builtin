@@ -1,5 +1,0 @@
-kernel/drivers/media/video/usbvideo/usbvideo.ko
-kernel/drivers/media/video/usbvideo/ibmcam.ko
-kernel/drivers/media/video/usbvideo/ultracam.ko
-kernel/drivers/media/video/usbvideo/konicawc.ko
-kernel/drivers/media/video/usbvideo/vicam.ko

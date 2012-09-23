@@ -1,1 +1,0 @@
-cmd_/home/s665a10/kk10/lichee/linux-2.6.36/modules/example/built-in.o :=  rm -f /home/s665a10/kk10/lichee/linux-2.6.36/modules/example/built-in.o; arm-none-linux-gnueabi-ar rcs /home/s665a10/kk10/lichee/linux-2.6.36/modules/example/built-in.o

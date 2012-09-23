@@ -1,4 +1,0 @@
-kernel/drivers/md/dm-mod.ko
-kernel/drivers/md/dm-crypt.ko
-kernel/drivers/md/dm-multipath.ko
-kernel/drivers/md/dm-round-robin.ko

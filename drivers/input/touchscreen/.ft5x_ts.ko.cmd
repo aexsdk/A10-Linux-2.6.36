@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/ft5x_ts.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ft5x_ts.ko drivers/input/touchscreen/ft5x_ts.o drivers/input/touchscreen/ft5x_ts.mod.o

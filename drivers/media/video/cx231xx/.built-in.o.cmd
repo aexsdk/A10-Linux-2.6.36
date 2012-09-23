@@ -1,1 +1,0 @@
-cmd_drivers/media/video/cx231xx/built-in.o :=  arm-none-linux-gnueabi-ld -EL    -r -o drivers/media/video/cx231xx/built-in.o drivers/media/video/cx231xx/cx231xx.o drivers/media/video/cx231xx/cx231xx-alsa.o 

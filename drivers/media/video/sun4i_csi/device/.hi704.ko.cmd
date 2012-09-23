@@ -1,1 +1,0 @@
-cmd_drivers/media/video/sun4i_csi/device/hi704.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/media/video/sun4i_csi/device/hi704.ko drivers/media/video/sun4i_csi/device/hi704.o drivers/media/video/sun4i_csi/device/hi704.mod.o

@@ -1,2 +1,0 @@
-kernel/drivers/ata/sw_ahci_platform.ko
-kernel/drivers/ata/libahci.ko
