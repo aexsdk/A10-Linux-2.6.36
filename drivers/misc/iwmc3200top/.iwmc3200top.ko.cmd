@@ -1,0 +1,1 @@
+cmd_drivers/misc/iwmc3200top/iwmc3200top.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/misc/iwmc3200top/iwmc3200top.ko drivers/misc/iwmc3200top/iwmc3200top.o drivers/misc/iwmc3200top/iwmc3200top.mod.o

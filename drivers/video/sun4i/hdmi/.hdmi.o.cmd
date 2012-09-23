@@ -1,0 +1,1 @@
+cmd_drivers/video/sun4i/hdmi/hdmi.o := arm-none-linux-gnueabi-ld -EL    -r -o drivers/video/sun4i/hdmi/hdmi.o drivers/video/sun4i/hdmi/aw/hdmi_core.o drivers/video/sun4i/hdmi/aw/hdmi_hal.o drivers/video/sun4i/hdmi/aw/hdmi_interface.o drivers/video/sun4i/hdmi/aw/hdmi_edid.o drivers/video/sun4i/hdmi/dev_hdmi.o drivers/video/sun4i/hdmi/drv_hdmi.o 

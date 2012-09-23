@@ -1,0 +1,3 @@
+kernel/drivers/char/apm-emulation.ko
+kernel/drivers/char/dcc_tty.ko
+kernel/drivers/char/sun4i_g2d/g2d_23.ko

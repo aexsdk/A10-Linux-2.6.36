@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/usbserial.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/usb/serial/usbserial.ko drivers/usb/serial/usbserial.o drivers/usb/serial/usbserial.mod.o

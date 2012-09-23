@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-sun4i/pin/built-in.o :=  arm-none-linux-gnueabi-ld -EL    -r -o arch/arm/mach-sun4i/pin/built-in.o arch/arm/mach-sun4i/pin/pin_ops.o arch/arm/mach-sun4i/pin/script.o arch/arm/mach-sun4i/pin/sys_config.o 

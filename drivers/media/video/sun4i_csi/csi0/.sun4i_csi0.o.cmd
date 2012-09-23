@@ -1,0 +1,1 @@
+cmd_drivers/media/video/sun4i_csi/csi0/sun4i_csi0.o := arm-none-linux-gnueabi-ld -EL    -r -o drivers/media/video/sun4i_csi/csi0/sun4i_csi0.o drivers/media/video/sun4i_csi/csi0/sun4i_csi_reg.o drivers/media/video/sun4i_csi/csi0/sun4i_drv_csi.o 

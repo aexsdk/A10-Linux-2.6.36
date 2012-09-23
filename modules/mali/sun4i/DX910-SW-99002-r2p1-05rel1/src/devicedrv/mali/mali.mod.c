@@ -1,0 +1,128 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+ .name = KBUILD_MODNAME,
+ .init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+ .exit = cleanup_module,
+#endif
+ .arch = MODULE_ARCH_INIT,
+};
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x6609097d, "module_layout" },
+	{ 0xadf42bd5, "__request_region" },
+	{ 0x75e212cf, "cdev_del" },
+	{ 0x1a2b73af, "kmalloc_caches" },
+	{ 0x12da5bb2, "__kmalloc" },
+	{ 0x8c932a49, "cdev_init" },
+	{ 0xc93c111c, "clk_reset" },
+	{ 0x17a142df, "__copy_from_user" },
+	{ 0xab455eb0, "up_read" },
+	{ 0x9f8df4c7, "clk_enable" },
+	{ 0x3e644807, "mem_map" },
+	{ 0xefd51652, "single_open" },
+	{ 0xa90c928a, "param_ops_int" },
+	{ 0x98082893, "__copy_to_user" },
+	{ 0xd8f795ca, "del_timer" },
+	{ 0x788fe103, "iomem_resource" },
+	{ 0xd8e484f0, "register_chrdev_region" },
+	{ 0xaeaae90e, "__alloc_workqueue_key" },
+	{ 0xc8b57c27, "autoremove_wake_function" },
+	{ 0x52760ca9, "getnstimeofday" },
+	{ 0x4ec2f8f7, "clk_disable" },
+	{ 0xbed60566, "sub_preempt_count" },
+	{ 0x639399b9, "ump_dd_phys_block_count_get" },
+	{ 0x8949858b, "schedule_work" },
+	{ 0xc9161a57, "down_interruptible" },
+	{ 0x64f1485a, "device_destroy" },
+	{ 0xc132b635, "platform_bus_type" },
+	{ 0x353e3fa5, "__get_user_4" },
+	{ 0xf59a7b7f, "queue_work" },
+	{ 0x74c86cc0, "init_timer_key" },
+	{ 0x7485e15e, "unregister_chrdev_region" },
+	{ 0x71a375d9, "clk_get_rate" },
+	{ 0x70611975, "__alloc_pages_nodemask" },
+	{ 0x9b680a42, "ump_dd_reference_release" },
+	{ 0x7d11c268, "jiffies" },
+	{ 0xc6d533e1, "down_read" },
+	{ 0xf6288e02, "__init_waitqueue_head" },
+	{ 0xe707d823, "__aeabi_uidiv" },
+	{ 0xfa2a45e, "__memzero" },
+	{ 0x5f754e5a, "memset" },
+	{ 0x37befc70, "jiffies_to_msecs" },
+	{ 0xea147363, "printk" },
+	{ 0x4113ea7e, "dma_free_coherent" },
+	{ 0xbc25aac9, "ump_dd_phys_blocks_get" },
+	{ 0x8e3c9cc3, "vprintk" },
+	{ 0x7ac27b17, "destroy_workqueue" },
+	{ 0x4c6ff041, "add_preempt_count" },
+	{ 0xb3efc72d, "down" },
+	{ 0x4cca3fb2, "device_create" },
+	{ 0x9a6221c5, "mod_timer" },
+	{ 0x1b48b304, "platform_device_unregister" },
+	{ 0x8cfc414e, "add_timer" },
+	{ 0xfda85a7d, "request_threaded_irq" },
+	{ 0x7002a3ff, "platform_driver_register" },
+	{ 0x43b0c9c3, "preempt_schedule" },
+	{ 0xadb3d81e, "up_write" },
+	{ 0xb1b22911, "down_write" },
+	{ 0x8164b1cc, "ump_dd_handle_create_from_secure_id" },
+	{ 0xd685c7a, "flush_workqueue" },
+	{ 0x347080ca, "contig_page_data" },
+	{ 0xbc38b683, "dma_alloc_coherent" },
+	{ 0x6db814ab, "do_mmap_pgoff" },
+	{ 0xda3bd97d, "cdev_add" },
+	{ 0x64d679a6, "kmem_cache_alloc" },
+	{ 0xab600421, "probe_irq_off" },
+	{ 0x165baa93, "__free_pages" },
+	{ 0xbc10dd97, "__put_user_4" },
+	{ 0xc9e3ad31, "platform_device_register" },
+	{ 0x5aa5b2b8, "do_munmap" },
+	{ 0x3bd1b1f6, "msecs_to_jiffies" },
+	{ 0x9d130ab0, "___dma_page_cpu_to_dev" },
+	{ 0x1000e51, "schedule" },
+	{ 0xd780a450, "clk_set_parent" },
+	{ 0x2ec08fee, "___dma_page_dev_to_cpu" },
+	{ 0xc27487dd, "__bug" },
+	{ 0x590cf35b, "wake_up_process" },
+	{ 0x9bce482f, "__release_region" },
+	{ 0x84c41780, "script_parser_fetch" },
+	{ 0xd23b3058, "clk_get" },
+	{ 0xdb76df02, "clk_set_rate" },
+	{ 0x57a6504e, "vsnprintf" },
+	{ 0xb9e52429, "__wake_up" },
+	{ 0xb121390a, "probe_irq_on" },
+	{ 0x37a0cba, "kfree" },
+	{ 0xdde132fa, "remap_pfn_range" },
+	{ 0x9d669763, "memcpy" },
+	{ 0x801678, "flush_scheduled_work" },
+	{ 0x75a17bed, "prepare_to_wait" },
+	{ 0x8cf51d15, "up" },
+	{ 0x8c437434, "class_destroy" },
+	{ 0x45a55ec8, "__iounmap" },
+	{ 0x8893fa5d, "finish_wait" },
+	{ 0x40a6f522, "__arm_ioremap" },
+	{ 0x701d0ebd, "snprintf" },
+	{ 0x6c737ce0, "platform_driver_unregister" },
+	{ 0xaeb1a6e1, "__class_create" },
+	{ 0xaa94c694, "__init_rwsem" },
+	{ 0x9e7d6bd0, "__udelay" },
+	{ 0x29537c9e, "alloc_chrdev_region" },
+	{ 0xf20dabd8, "free_irq" },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=ump";
+
+
+MODULE_INFO(srcversion, "01CE88497598440ED597B64");

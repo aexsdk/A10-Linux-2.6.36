@@ -1,0 +1,8 @@
+kernel/drivers/media/video/sun4i_csi/device/ov7670.ko
+kernel/drivers/media/video/sun4i_csi/device/gt2005.ko
+kernel/drivers/media/video/sun4i_csi/device/gc0308.ko
+kernel/drivers/media/video/sun4i_csi/device/hi704.ko
+kernel/drivers/media/video/sun4i_csi/device/sp0838.ko
+kernel/drivers/media/video/sun4i_csi/device/mt9m112.ko
+kernel/drivers/media/video/sun4i_csi/device/mt9m113.ko
+kernel/drivers/media/video/sun4i_csi/device/ov2655.ko

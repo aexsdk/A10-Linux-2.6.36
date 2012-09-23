@@ -1,0 +1,116 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+ .name = KBUILD_MODNAME,
+ .init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+ .exit = cleanup_module,
+#endif
+ .arch = MODULE_ARCH_INIT,
+};
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x6609097d, "module_layout" },
+	{ 0x7e5d1f04, "tty_port_tty_get" },
+	{ 0x6d662533, "_find_first_bit_le" },
+	{ 0x8b0ac4dc, "bus_register" },
+	{ 0xd0688573, "device_remove_file" },
+	{ 0x1a2b73af, "kmalloc_caches" },
+	{ 0x12da5bb2, "__kmalloc" },
+	{ 0xd5b037e1, "kref_put" },
+	{ 0x1b21f0a9, "driver_register" },
+	{ 0x13d0adf7, "__kfifo_out" },
+	{ 0xefd51652, "single_open" },
+	{ 0xc068440e, "__kfifo_alloc" },
+	{ 0x7647726c, "handle_sysrq" },
+	{ 0x682c23de, "dev_set_drvdata" },
+	{ 0xb8711b5d, "dev_printk" },
+	{ 0x4013e7d0, "single_release" },
+	{ 0x709cc168, "seq_puts" },
+	{ 0x545a6c89, "alloc_tty_driver" },
+	{ 0xbed60566, "sub_preempt_count" },
+	{ 0xacd82ad1, "tty_port_open" },
+	{ 0x8949858b, "schedule_work" },
+	{ 0x170ec140, "seq_printf" },
+	{ 0x56aefd1c, "tty_port_hangup" },
+	{ 0x933740ca, "cancel_work_sync" },
+	{ 0x167c6d02, "usb_kill_urb" },
+	{ 0xe28483e4, "tty_register_driver" },
+	{ 0x677bb305, "param_ops_bool" },
+	{ 0x62b72b0d, "mutex_unlock" },
+	{ 0x593b7cd6, "put_tty_driver" },
+	{ 0x3c2c5af5, "sprintf" },
+	{ 0x479c0465, "seq_read" },
+	{ 0x7d11c268, "jiffies" },
+	{ 0x20bc8ccd, "tty_set_operations" },
+	{ 0x240894d1, "device_bind_driver" },
+	{ 0x8a9709ba, "tty_port_close" },
+	{ 0xa41f0901, "device_del" },
+	{ 0xe1864d63, "dev_err" },
+	{ 0xd011f345, "usb_deregister" },
+	{ 0xdc798d37, "__mutex_init" },
+	{ 0xea147363, "printk" },
+	{ 0xf5bec831, "driver_unregister" },
+	{ 0xb3c82ba9, "seq_putc" },
+	{ 0xa43b6aeb, "tty_port_init" },
+	{ 0x93a125b7, "tty_insert_flip_string_fixed_flag" },
+	{ 0xe16b893b, "mutex_lock" },
+	{ 0x4c6ff041, "add_preempt_count" },
+	{ 0xc8233e2c, "tty_vhangup" },
+	{ 0xd2a44d43, "device_add" },
+	{ 0x43b0c9c3, "preempt_schedule" },
+	{ 0x8cb3808e, "bus_unregister" },
+	{ 0x5093fa82, "_clear_bit_le" },
+	{ 0x89cd3c29, "usb_store_new_id" },
+	{ 0xf58cb4d8, "tty_insert_flip_string_flags" },
+	{ 0x7e060b0e, "usb_match_id" },
+	{ 0x37294e0d, "tty_register_device" },
+	{ 0x2f5b0e68, "device_create_file" },
+	{ 0x9df01a53, "module_put" },
+	{ 0xf240613e, "tty_unregister_device" },
+	{ 0x7fab2120, "_dev_info" },
+	{ 0x462a382, "usb_submit_urb" },
+	{ 0x64d679a6, "kmem_cache_alloc" },
+	{ 0x67b27ec1, "tty_std_termios" },
+	{ 0xe99ff310, "usb_get_dev" },
+	{ 0x2307926a, "put_device" },
+	{ 0xf0fdf6cb, "__stack_chk_fail" },
+	{ 0x604b0cf, "usb_put_dev" },
+	{ 0x30e74134, "tty_termios_copy_hw" },
+	{ 0xdb760f52, "__kfifo_free" },
+	{ 0xeacb0bf0, "tty_unregister_driver" },
+	{ 0x19a304ba, "usb_disabled" },
+	{ 0x73c2575b, "seq_lseek" },
+	{ 0x83800bfa, "kref_init" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x9775cdc, "kref_get" },
+	{ 0xa58517f6, "device_initialize" },
+	{ 0x85489569, "usb_match_one_id" },
+	{ 0x60bd603a, "usb_register_driver" },
+	{ 0x8bc7b631, "tty_kref_put" },
+	{ 0x55b81ac7, "tty_flip_buffer_push" },
+	{ 0x943ad040, "tty_init_termios" },
+	{ 0xf23fcb99, "__kfifo_in" },
+	{ 0x8f678b07, "__stack_chk_guard" },
+	{ 0x701d0ebd, "snprintf" },
+	{ 0x73b164d, "param_ops_ushort" },
+	{ 0x659c2a7c, "dev_set_name" },
+	{ 0x6fc8f216, "tty_wakeup" },
+	{ 0x1fc749b8, "dev_get_drvdata" },
+	{ 0xb578edfd, "usb_free_urb" },
+	{ 0x16165ed6, "usb_alloc_urb" },
+	{ 0x313341a3, "_set_bit_le" },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=";
+

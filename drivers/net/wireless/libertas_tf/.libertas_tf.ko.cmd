@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/libertas_tf/libertas_tf.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/net/wireless/libertas_tf/libertas_tf.ko drivers/net/wireless/libertas_tf/libertas_tf.o drivers/net/wireless/libertas_tf/libertas_tf.mod.o

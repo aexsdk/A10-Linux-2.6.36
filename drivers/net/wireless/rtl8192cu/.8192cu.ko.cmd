@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rtl8192cu/8192cu.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/net/wireless/rtl8192cu/8192cu.ko drivers/net/wireless/rtl8192cu/8192cu.o drivers/net/wireless/rtl8192cu/8192cu.mod.o

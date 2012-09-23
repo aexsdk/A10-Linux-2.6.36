@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/option.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/usb/serial/option.ko drivers/usb/serial/option.o drivers/usb/serial/option.mod.o

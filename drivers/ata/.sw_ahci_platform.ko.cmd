@@ -1,0 +1,1 @@
+cmd_drivers/ata/sw_ahci_platform.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/s665a10/kk10/lichee/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/ata/sw_ahci_platform.ko drivers/ata/sw_ahci_platform.o drivers/ata/sw_ahci_platform.mod.o

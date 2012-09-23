@@ -1,0 +1,1 @@
+cmd_drivers/media/video/usbvideo/built-in.o :=  arm-none-linux-gnueabi-ld -EL    -r -o drivers/media/video/usbvideo/built-in.o drivers/media/video/usbvideo/usbvideo.o drivers/media/video/usbvideo/ibmcam.o drivers/media/video/usbvideo/ultracam.o drivers/media/video/usbvideo/konicawc.o drivers/media/video/usbvideo/vicam.o 

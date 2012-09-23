@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-sun4i/cpu-freq/built-in.o :=  arm-none-linux-gnueabi-ld -EL    -r -o arch/arm/mach-sun4i/cpu-freq/built-in.o arch/arm/mach-sun4i/cpu-freq/cpu-freq.o arch/arm/mach-sun4i/cpu-freq/cpu-freq-table.o 

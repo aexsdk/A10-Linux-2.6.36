@@ -1,0 +1,1 @@
+cmd_drivers/video/sun4i/lcd/lcd.o := arm-none-linux-gnueabi-ld -EL    -r -o drivers/video/sun4i/lcd/lcd.o drivers/video/sun4i/lcd/dev_lcd.o drivers/video/sun4i/lcd/lcd0_panel_cfg.o drivers/video/sun4i/lcd/lcd1_panel_cfg.o 

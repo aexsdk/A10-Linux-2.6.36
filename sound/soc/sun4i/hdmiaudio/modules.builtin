@@ -1,0 +1,4 @@
+kernel/sound/soc/sun4i/hdmiaudio/sun4i-hdmiaudio.ko
+kernel/sound/soc/sun4i/hdmiaudio/sun4i-sndhdmi.ko
+kernel/sound/soc/sun4i/hdmiaudio/sndhdmi.ko
+kernel/sound/soc/sun4i/hdmiaudio/sun4i-hdmipcm.ko

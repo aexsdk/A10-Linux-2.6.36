@@ -1,0 +1,15 @@
+kernel/sound/soundcore.ko
+kernel/sound/core/snd.ko
+kernel/sound/core/snd-timer.ko
+kernel/sound/core/snd-pcm.ko
+kernel/sound/core/snd-page-alloc.ko
+kernel/sound/soc/snd-soc-core.ko
+kernel/sound/soc/sun4i/sun4i-codec.ko
+kernel/sound/soc/sun4i/hdmiaudio/sun4i-hdmiaudio.ko
+kernel/sound/soc/sun4i/hdmiaudio/sun4i-sndhdmi.ko
+kernel/sound/soc/sun4i/hdmiaudio/sndhdmi.ko
+kernel/sound/soc/sun4i/hdmiaudio/sun4i-hdmipcm.ko
+kernel/sound/soc/sun4i/spdif/sun4i_spdif.ko
+kernel/sound/soc/sun4i/spdif/sun4i_spdma.ko
+kernel/sound/soc/sun4i/spdif/sndspdif.ko
+kernel/sound/soc/sun4i/spdif/sun4i_sndspdif.ko

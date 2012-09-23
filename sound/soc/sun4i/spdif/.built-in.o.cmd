@@ -1,0 +1,1 @@
+cmd_sound/soc/sun4i/spdif/built-in.o :=  arm-none-linux-gnueabi-ld -EL    -r -o sound/soc/sun4i/spdif/built-in.o sound/soc/sun4i/spdif/sun4i_spdif.o sound/soc/sun4i/spdif/sun4i_spdma.o sound/soc/sun4i/spdif/sndspdif.o sound/soc/sun4i/spdif/sun4i_sndspdif.o 
